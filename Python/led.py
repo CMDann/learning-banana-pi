@@ -17,6 +17,6 @@ GPIO.setup(21, GPIO.OUT)
 
 # blink GPIO21 50 times
 for i in range(0,50):
-        blink(11)
+        blink(21)
 
 GPIO.cleanup() 
